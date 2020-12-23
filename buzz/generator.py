@@ -14,7 +14,7 @@ verbs = ("accelerates", "improves", "enhances", "revamps", "boosts")
 
 
 def sample(list1, n=1):
-    result = random.sample(l, n)
+    result = random.sample(list1, n)
     if n == 1:
         return result[0]
     return result
